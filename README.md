@@ -35,7 +35,7 @@ The dataset comes from **Kaggle**, a famous site with thousands of amazing datas
 
 ## 🚀 Roadmap
 
-  - ### 🧹 [Data Cleaning]
+  - ### 🧹 [Data Cleaning](https://github.com/kartik-kakar/RentWise-Predicting-Rental-Property-Prices-In-US/blob/37ec38d5514f697f7f2a22d29b820da12f05bae9/1.%20Data_Cleaning.ipynb)
        It involved cleaning the raw dataset ensuring that the data is ready for analysis. We dropped the unecessary columns and dealt with missing 'NaN' values. Then we saved the cleaned dataset file to use for 
        further EDA.
 
