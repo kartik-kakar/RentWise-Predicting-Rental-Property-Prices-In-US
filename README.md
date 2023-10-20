@@ -2,6 +2,8 @@
 
 # 📈 RentWise: Predicting Rental Property Prices in US
 
+<img align="center" src= title="Paycast" alt="Paycast" width="400" height="400">
+
 </div>
 
 
