@@ -7,12 +7,12 @@
 </div>
 
 
-**## Introduction**
+## 🏠 Introduction
 
 Welcome to the "RentWise" a US Rental price prediction project, where we delve into the intricate world of rental property pricing in the United States. In this data-driven endeavor, we harness the power of data science techniques, including Linear Regression and Decision Trees, to shed light on the dynamics of rental housing prices. Our ultimate objective is to develop a robust predictive model that can accurately estimate these prices, offering invaluable insights for renters, landlords, and the ever-evolving real estate industry.
 
 
-**## 🎯 Project Overview**
+## 🎯 Project Overview
 
 The project's primary focus is to leverage machine learning to tackle the complex challenges associated with rental housing pricing. We aim to answer pressing questions, such as:
 
@@ -22,7 +22,7 @@ The project's primary focus is to leverage machine learning to tackle the comple
 4. What insights can we extract from the data to inform both renters and landlords?
 
 
-**## 📊 Dataset**
+## 📊 Dataset
 
 The dataset comes from **Kaggle**, a famous site with thousands of amazing datasets to work it. Each row represents a unique Rental property in different states of US, and each column a different attribute. Some of the key features in my dataset are:
   - region: Region where the rental is situated
@@ -33,7 +33,7 @@ The dataset comes from **Kaggle**, a famous site with thousands of amazing datas
   - price: Rent per month (Target Column)
 
 
-**## 🚀 Roadmap**
+## 🚀 Roadmap
 
   - ### 🧹 [Data Cleaning]
        It involved cleaning the raw dataset ensuring that the data is ready for analysis. We dropped the unecessary columns and dealt with missing 'NaN' values. Then we saved the cleaned dataset file to use for 
@@ -52,7 +52,7 @@ The dataset comes from **Kaggle**, a famous site with thousands of amazing datas
           - Logistic Regression
           - Decision Tree
 
-**## 📝 Learnings**
+## 📝 Learnings
 
 Till now, we have cleaned our dataset and decided our Target variable, i.e, 'price' and have made a lot of visualization revealing the relationships between different variables.
 
