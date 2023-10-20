@@ -43,10 +43,10 @@ The dataset comes from **Kaggle**, a famous site with thousands of amazing datas
        We investigated the dataset's characteristics, relationships, and patterns using visualizations and statistical techniques, providing insights for model selection and feature engineering. We removed the 
        outliers from our dataset to get more realilstic findings and saved up our modified file for future use. 
 
-  - ### 🧠 [Feature Engineering]
+  - ### 🧠 Feature Engineering
        Next, we will focus on data transformation and data splitting, preparing the dataset for model training and ensuring that features are meaningful and suitable for machine learning.
 
-  - ### 📊 [Modeling]
+  - ### 📊 Modeling
        It will invlove selecting, training, and evaluating machine learning models to predict rental housing prices, aiming to create an accurate and interpretable predictive model.
        We will be testing and evaluating various models, including:
           - Logistic Regression
