@@ -2,7 +2,7 @@
 
 # 📈 RentWise: Predicting Rental Property Prices in US
 
-<img align="center" src="https://github.com/kartik-kakar/US-Rental-Housing-Prediction/blob/db230e419eefd649fcedb277237c01697aa6615e/RentWise%20Logo.png" title="Paycast" alt="RentWise" width="700" height="400">
+<img align="center" src="https://github.com/kartik-kakar/US-Rental-Housing-Prediction/blob/db230e419eefd649fcedb277237c01697aa6615e/RentWise%20Logo.png" title="RentWise" width="700" height="400">
 
 </div>
 
