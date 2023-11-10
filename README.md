@@ -62,28 +62,17 @@ The dataset comes from **Kaggle**, a famous site with thousands of amazing datas
        outliers from our dataset to get more realilstic findings and saved up our modified file for future use. 
 
   - ### 🧠 Feature Engineering and 📊 Modelling
-       Next, we focused on data transformation and data splitting, prepared the dataset for model training and ensuring that features are meaningful and suitable for machine learning.
+       Next, we focused on data transformation, converted all the categorical columns to numerical ones ensuring that features are meaningful and suitable for machine learning. Then, we split our data into test and train set, prepared for model training and tried out the following models on the entire dataset:
+    -  Linear Regression
+    -  Ridge Regression
+    -  Lasso Regression
+    -  Decision Tree
+    -  Random Forest
+    -  Neural Network Regressor
 
-  - ### 📊 Modeling
-       It will invlove selecting, training, and evaluating machine learning models to predict rental housing prices, aiming to create an accurate and interpretable predictive model.
-       We will be testing and evaluating various models, including:
-          - Logistic Regression
-          - Decision Tree
+      We then scaled our dataset, ran the models again and compared them using the R2 and MSE metric.
 
 ## 📝 Learnings
 
-Till now, we have cleaned our dataset and decided our Target variable, i.e, 'price' and have made a lot of visualization revealing the relationships between different variables.
-
-
-
-
-
-
-
-
-
-
-
-
-
+Till now, we have cleaned our dataset and decided our Target variable, i.e, 'price' and have made a lot of visualization revealing the relationships between different variables. We have also done the feature engineering and made and compared few baseline models for our project. After comparison, we learned that the Random Forest Regressor model consistently demonstrates superior predictive accuracy and generalization having the highest R2 Score of more than 84.00% both before and after scaling.
 
