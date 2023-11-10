@@ -25,12 +25,30 @@ The project's primary focus is to leverage machine learning to tackle the comple
 ## 📊 Dataset
 
 The dataset comes from **Kaggle**, a famous site with thousands of amazing datasets to work it. Each row represents a unique Rental property in different states of US, and each column a different attribute. Some of the key features in my dataset are:
-  - region: Region where the rental is situated
-  - type: Housing type
-  - sqfeet: Total square footage
-  - beds: Number of Bedrooms
-  - baths: Number of bathrooms
-  - price: Rent per month (Target Column)
+
+<div align="center">
+
+| #   | Columns                  | Description                                           | Dtype    |
+| --- | ------------------------ | ----------------------------------------------------- | -------- |
+| 1   | region                   | Craigslist region                                    | object   |
+| 2   | price                    | Rent per month (Target Column)                       | int64    |
+| 3   | type                     | Housing type                                         | object   |
+| 4   | sqfeet                   | Total square footage                                 | int64    |
+| 5   | beds                     | Number of Beds                                       | int64    |
+| 6   | baths                    | Number of Bathrooms                                  | float64  |
+| 7   | cats_allowed             | Cats allowed boolean (1 = yes, 0 = no)               | int64    |
+| 8   | dogs_allowed             | Dogs allowed boolean (1 = yes, 0 = no)               | int64    |
+| 9   | smoking_allowed          | Smoking allowed boolean (1 = yes, 0 = no)            | int64    |
+| 10  | wheelchair_access        | Has wheelchair access boolean (1 = yes, 0 = no)      | int64    |
+| 11  | electric_vehicle_charge  | Has electric vehicle charger boolean (1 = yes, 0 = no)| int64    |
+| 12  | comes_furnished          | Comes with furniture boolean (1 = yes, 0 = no)       | int64    |
+| 13  | laundry_options          | Laundry options available                            | object   |
+| 14  | parking_options          | Parking options available                            | object   |
+| 15  | state                    | State of listing                                     | object   |
+
+</div>
+
+
 
 
 ## 🚀 Roadmap
@@ -43,8 +61,8 @@ The dataset comes from **Kaggle**, a famous site with thousands of amazing datas
        We investigated the dataset's characteristics, relationships, and patterns using visualizations and statistical techniques, providing insights for model selection and feature engineering. We removed the 
        outliers from our dataset to get more realilstic findings and saved up our modified file for future use. 
 
-  - ### 🧠 Feature Engineering
-       Next, we will focus on data transformation and data splitting, preparing the dataset for model training and ensuring that features are meaningful and suitable for machine learning.
+  - ### 🧠 Feature Engineering and 📊 Modelling
+       Next, we focused on data transformation and data splitting, prepared the dataset for model training and ensuring that features are meaningful and suitable for machine learning.
 
   - ### 📊 Modeling
        It will invlove selecting, training, and evaluating machine learning models to predict rental housing prices, aiming to create an accurate and interpretable predictive model.
