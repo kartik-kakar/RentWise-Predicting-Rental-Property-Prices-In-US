@@ -61,7 +61,7 @@ The dataset comes from **Kaggle**, a famous site with thousands of amazing datas
        We investigated the dataset's characteristics, relationships, and patterns using visualizations and statistical techniques, providing insights for model selection and feature engineering. We removed the 
        outliers from our dataset to get more realilstic findings and saved up our modified file for future use. 
 
-  - ### 🧠 [Feature Engineering and 📊 Modelling](https://github.com/kartik-kakar/RentWise-Predicting-Rental-Property-Prices-In-US/blob/ccb31cad8f60f498e198b043b873268db1015700/3.%20Feature_Engineering_and_Baseline_modelling.ipynb)
+  - ### 🧠 [Feature Engineering and 📊 Modelling](https://github.com/kartik-kakar/RentWise-Predicting-Rental-Property-Prices-In-US/blob/ccb31cad8f60f498e198b043b873268db1015700/3.%20Feature_Engineering_and_Baseline_modelling.ipynb) 
        Next, we focused on data transformation, converted all the categorical columns to numerical ones ensuring that features are meaningful and suitable for machine learning. Then, we split our data into test and train set, prepared for model training and tried out the following models on the entire dataset:
     -  Linear Regression
     -  Ridge Regression
