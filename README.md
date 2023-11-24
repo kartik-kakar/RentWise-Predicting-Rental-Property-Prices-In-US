@@ -61,7 +61,7 @@ The dataset comes from **Kaggle**, a famous site with thousands of amazing datas
        We investigated the dataset's characteristics, relationships, and patterns using visualizations and statistical techniques, providing insights for model selection and feature engineering. We removed the 
        outliers from our dataset to get more realilstic findings and saved up our modified file for future use. 
 
-  - ### 🧠 [Feature Engineering and 📊 Modelling](https://github.com/kartik-kakar/RentWise-Predicting-Rental-Property-Prices-In-US/blob/ccb31cad8f60f498e198b043b873268db1015700/3.%20Feature_Engineering_and_Baseline_modelling.ipynb) 
+  - ### 🧠 [Feature Engineering and Baseline Modelling](https://github.com/kartik-kakar/RentWise-Predicting-Rental-Property-Prices-In-US/blob/ccb31cad8f60f498e198b043b873268db1015700/3.%20Feature_Engineering_and_Baseline_modelling.ipynb) 
        Next, we focused on data transformation, converted all the categorical columns to numerical ones ensuring that features are meaningful and suitable for machine learning. Then, we split our data into test and train set, prepared for model training and tried out the following models on the entire dataset:
     -  Linear Regression
     -  Ridge Regression
@@ -72,7 +72,29 @@ The dataset comes from **Kaggle**, a famous site with thousands of amazing datas
 
       We then scaled our dataset, ran the models again and compared them using the R2 and MSE metric.
 
-## 📝 Learnings
+  - ### 📊 [Hyperparameter Tuning]()
+    After comparison, we learned that the Random Forest Regressor model consistently demonstrates superior predictive accuracy and generalization having the highest
+    R2 Score of more than 84.00% both before and after scaling. Then, we proceeded to tune the hyperparameters and found the following ones best:
+    - no. of components: 380
+    - optimal maximum depth: 140
+    - minimum samples leaf: 5
+    - minimum samples split: 0.01
+   
+    Using these parameters, we evaluated the model on our dataset and got some nice predictions. 
 
-Till now, we have cleaned our dataset and decided our Target variable, i.e, 'price' and have made a lot of visualization revealing the relationships between different variables. We have also done the feature engineering and made and compared few baseline models for our project. After comparison, we learned that the Random Forest Regressor model consistently demonstrates superior predictive accuracy and generalization having the highest R2 Score of more than 84.00% both before and after scaling.
+   
+
+  - ### 📝 Learnings and Conclusion
+    
+    In conclusion, this project aimed to develop a predictive model for property prices in US. Beginning with data cleaning and preprocessing, we explored various features (EDA), including property type, square footage, and amenities, to understand their impact on pricing. The dataset was then subjected to sampling, scaling, and dimensionality reduction using Principal Component Analysis (PCA) to optimize model training.
+    
+    Our findings revealed that a Random Forest model, both pre- and post-scaled, performed exceptionally well in predicting property prices. To expedite the hyperparameter tuning process, we sampled the dataset to 50,000 rows, achieving a balance between computational efficiency and model accuracy.
+    
+    Further analysis involved refining the Random Forest model's maximum depth parameter, leading to an optimal depth of 140. Leveraging this information, a grid search was conducted to identify the best hyperparameters, resulting in a model that achieved a cross-validated score of 0.60.
+    
+    The final evaluation on the test set demonstrated promising results, with a Mean Squared Error of 114,439 and an R-squared value of 0.62, indicating a relatively accurate prediction of property prices.
+    
+    Lastly, applying the model to real-world scenarios, we made predictions for three distinct property examples, considering features such as region, type, square footage, and more. The resulting predicted prices offer valuable insights for stakeholders in the real estate market.
+    
+    This project not only provides a robust predictive model for property prices but also showcases the significance of feature engineering, hyperparameter tuning, and model evaluation in developing accurate and reliable machine learning applications for real-world problems.
 
