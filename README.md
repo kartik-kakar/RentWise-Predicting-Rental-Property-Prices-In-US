@@ -94,10 +94,9 @@ The dataset comes from **Kaggle**, a famous site with thousands of amazing datas
 </div>
 
    
-
-  - ### 📝 Learnings and Conclusion
+## 📝 Learnings and Conclusion
     
-    In conclusion, this project has successfully developed a robust predictive model for US property prices by leveraging the entire dataset. Beginning with comprehensive data cleaning and preprocessing, the exploration of various features through exploratory data analysis (EDA) shed light on influential factors such as property type, square footage, and amenities affecting pricing dynamics. Notably, our model, based on a Random Forest algorithm, demonstrated exceptional predictive performance both before and after scaling.
+In conclusion, this project has successfully developed a robust predictive model for US property prices by leveraging the entire dataset. Beginning with comprehensive data cleaning        and preprocessing, the exploration of various features through exploratory data analysis (EDA) shed light on influential factors such as property type, square footage, and amenities       affecting pricing dynamics. Notably, our model, based on a Random Forest algorithm, demonstrated exceptional predictive performance both before and after scaling.
 
 To expedite the hyperparameter tuning process, the dataset was initially sampled to 50,000 rows, achieving a favorable balance between computational efficiency and model accuracy. Further analysis involved refining the Random Forest model's hyperparameters, particularly setting the optimal maximum depth to 140. A subsequent grid search facilitated the identification of the best hyperparameters, resulting in a finely tuned model with a cross-validated score of 0.60.
 
