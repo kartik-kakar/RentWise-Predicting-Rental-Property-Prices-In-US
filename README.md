@@ -80,7 +80,15 @@ The dataset comes from **Kaggle**, a famous site with thousands of amazing datas
     - minimum samples leaf: 5
     - minimum samples split: 0.01
    
-    Using these parameters, we evaluated the model on our dataset and got some nice predictions. 
+    Using these parameters, we evaluated the model on our entire dataset and got some predictions:
+
+| # | Region          | Type       | SqFeet | Beds | Baths | Cats Allowed | Dogs Allowed | Smoking Allowed | Wheelchair Access | Electric Vehicle Charge | Comes Furnished | Laundry Options | Parking Options      | State | Predicted Price |
+|---|-----------------|------------|--------|------|-------|--------------|--------------|------------------|-------------------|--------------------------|------------------|------------------|-----------------------|-------|------------------|
+| 1 | reno / tahoe    | apartment  | 1001   | 2    | 2     | 0            | 0            | 0                | 0                 | 0                        | 0                | w/d hookups      | carport               | CA    | **2360.14**      |
+| 2 | hickory / lenoir | apartment  | 1190   | 2    | 2     | 1            | 1            | 0                | 0                 | 0                        | 0                | w/d hookups      | off-street parking    | NC    | **1246.26**      |
+| 3 | rhode island     | apartment  | 900    | 2    | 1     | 1            | 1            | 1                | 1                 | 0                        | 0                | w/d in unit      | off-street parking    | RI    | **2016.00**      |
+| 4 | reno / tahoe    | apartment  | 1000   | 3    | 2     | 1            | 1            | 0                | 0                 | 0                        | 0                | w/d in unit      | carport               | AL    | **1396.94**      |
+
 
    
 
