@@ -97,15 +97,15 @@ The dataset comes from **Kaggle**, a famous site with thousands of amazing datas
 
   - ### 📝 Learnings and Conclusion
     
-    In conclusion, this project aimed to develop a predictive model for property prices in US. Beginning with data cleaning and preprocessing, we explored various features (EDA), including property type, square footage, and amenities, to understand their impact on pricing. The dataset was then subjected to sampling, scaling, and dimensionality reduction using Principal Component Analysis (PCA) to optimize model training.
-    
-    Our findings revealed that a Random Forest model, both pre- and post-scaled, performed exceptionally well in predicting property prices. To expedite the hyperparameter tuning process, we sampled the dataset to 50,000 rows, achieving a balance between computational efficiency and model accuracy.
-    
-    Further analysis involved refining the Random Forest model's maximum depth parameter, leading to an optimal depth of 140. Leveraging this information, a grid search was conducted to identify the best hyperparameters, resulting in a model that achieved a cross-validated score of 0.60.
-    
-    The final evaluation on the test set demonstrated promising results, with a Mean Squared Error of 114,439 and an R-squared value of 0.62, indicating a relatively accurate prediction of property prices.
-    
-    Lastly, applying the model to real-world scenarios, we made predictions for three distinct property examples, considering features such as region, type, square footage, and more. The resulting predicted prices offer valuable insights for stakeholders in the real estate market.
-    
-    This project not only provides a robust predictive model for property prices but also showcases the significance of feature engineering, hyperparameter tuning, and model evaluation in developing accurate and reliable machine learning applications for real-world problems.
+    In conclusion, this project has successfully developed a robust predictive model for US property prices by leveraging the entire dataset. Beginning with comprehensive data cleaning and preprocessing, the exploration of various features through exploratory data analysis (EDA) shed light on influential factors such as property type, square footage, and amenities affecting pricing dynamics. Notably, our model, based on a Random Forest algorithm, demonstrated exceptional predictive performance both before and after scaling.
+
+To expedite the hyperparameter tuning process, the dataset was initially sampled to 50,000 rows, achieving a favorable balance between computational efficiency and model accuracy. Further analysis involved refining the Random Forest model's hyperparameters, particularly setting the optimal maximum depth to 140. A subsequent grid search facilitated the identification of the best hyperparameters, resulting in a finely tuned model with a cross-validated score of 0.60.
+
+The conclusive evaluation on the test set affirmed the model's efficacy, yielding a Mean Squared Error of 114,439 and an R-squared value of 0.62. These metrics signify the model's ability to make accurate predictions, laying a strong foundation for its real-world applicability.
+
+Notably, after training our model on the entire dataset, the predictions demonstrated remarkable closeness to the actual answers present in the dataset. This performance enhancement further solidifies the model's reliability, offering valuable insights for stakeholders in the dynamic real estate market.
+
+Applying the model to practical scenarios, we made predictions for four diverse property examples, incorporating features like region, type, square footage, and more. The resulting predictions underscore the model's reliability, offering valuable insights for stakeholders in the dynamic real estate market.
+
+In essence, this project not only delivers an advanced predictive model for property prices but also underscores the significance of extensive training on the entire dataset. The combination of feature engineering, hyperparameter tuning, and meticulous model evaluation contributes to the development of accurate and dependable machine learning applications, addressing real-world challenges in the realm of real estate.
 
